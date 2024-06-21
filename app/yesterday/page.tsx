@@ -1,3 +1,9 @@
+import { ImageUploadForm } from "@/widgets/imageuploadform/ui/ImageUploadForm";
+
 export default function Page() {
-  return <h3>Hello, Yesterday Page!</h3>;
+  return (
+    <>
+      <ImageUploadForm />
+    </>
+  );
 }

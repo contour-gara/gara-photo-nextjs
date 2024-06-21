@@ -1,8 +1,8 @@
-import { RoutButton } from "@/shared/ui/RoutButton";
+import { RoutButton } from "@/shared/ui";
 
 export const Sidebar = () => {
   return (
-    <header className="flex items-end flex-col mt-10 //border-4">
+    <header className="flex items-end flex-col mt-10">
       <RoutButton path="/" text="Gara Photo" />
       <RoutButton path="/yesterday" text="yesterday" />
     </header>
